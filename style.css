@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Quicksand, Arial, sans-serif;
+  text-decoration: none;
+}
+
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 500px;
+  width: 300px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  position: relative;
+}
+
+.teal {
+  background-color: #008080;
+}
+
+.orange {
+  background-color: #e09201;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.green {
+  background-color: #005543;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.button {
+  background-color: #ffffff;
+  color: rgb(70, 70, 70);
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 50px;
+  left: 40px;
+}
+
+.button:hover {
+  background-color: #242424;
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+}
+
+.circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 45px;
+  left: 45px;
+}
+
+.icon-sedan {
+  position: absolute;
+  fill: rgb(255, 204, 109);
+  width: 50px;
+  height: 50px;
+  top: 41px;
+  left: 60px;
+}
+
+.icon-suvs {
+  position: absolute;
+  fill: #00c2c2;
+  width: 50px;
+  height: 50px;
+  top: 41px;
+  left: 60px;
+}
+
+.icon-luxury {
+  position: absolute;
+  fill: #018b6d;
+  width: 50px;
+  height: 50px;
+  top: 41px;
+  left: 60px;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #ffffff;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
